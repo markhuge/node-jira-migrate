@@ -1,0 +1,27 @@
+{
+  "name": "jira-migrate",
+  "author": "Mark Wilkerson <mark.wilkerson@hightail.com>",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hightail/node-jira-migrate.git"
+  },
+  "keywords": [
+    "jira"
+  ],
+  "scripts": {
+    "test": "npm run unit",
+    "unit": "mocha -R spec",
+    "watch": "mocha -w -R spec"
+  },
+  "devDependencies": {
+    "blanket": "^1.1.6",
+    "chai": "^1.9.1",
+    "mocha": "^1.20.1",
+    "sinon": "^1.10.2",
+    "travis-cov": "^0.2.5"
+  },
+  "dependencies": {
+    "jira": "^0.10.0"
+  }
+}
