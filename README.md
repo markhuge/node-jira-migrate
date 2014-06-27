@@ -51,14 +51,14 @@ Configures the server options and credentials for the migration.
 
 config.js
 ```javascript
-var origin = {
+this.origin = {
 	url      : "https://old.jira:8080",
 	user     : process.env.ORIGIN_USER,
 	password : process.env.ORIGIN_PASS
 }
 
 
-var dest   = {
+this.dest   = {
 	url      : "https://new.jira:8000",
 	user     : process.env.DEST_USER,
 	password : process.env.DEST_PASS
