@@ -1,5 +1,5 @@
-node-jira-migrate
-=================
+node-jira-migrate [![Build Status](https://travis-ci.org/hightail/node-jira-migrate.svg)](https://travis-ci.org/hightail/node-jira-migrate)
+===
 
 > A Node.js library to facilitate migration of JIRA content between JIRA instances
 
